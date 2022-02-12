@@ -91,6 +91,18 @@ body {
 }
 .thumb {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    max-width: 1240px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px; 
+    padding-bottom: 20px;
+}
+.left-content {
+    width: 50%;
+    display: flex;
+}
+.right-content {
+    display: flex;
+    width: 50%;
 }
