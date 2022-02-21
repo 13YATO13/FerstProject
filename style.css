@@ -3,10 +3,11 @@
 }
 body {
     margin: 0;
-    font-style:italic;
+    font-family: 'Roboto Bold', arial;
 }
 .container {
     background-color: #22197a;
+    font-size: 14px;
 }
 .container-01 {
     height: 60px;
@@ -90,11 +91,15 @@ body {
     margin-right: 30px;
 }
 .thumb {
-    display: flex;
     max-width: 1240px;
     width: 100%;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+.container-max {
+    display: flex;
+    margin: auto;
     padding-top: 50px; 
     padding-bottom: 20px;
 }
@@ -102,7 +107,28 @@ body {
     width: 50%;
     display: flex;
 }
+.content-text {
+
+}
+.title-t-medium {
+    font-size: 25px;
+    font-weight: bolder;
+}
+.domain-prices {
+    display: flex;
+}
+.box-item {
+    padding: 7px;
+}
+.box-item-img {
+
+}
 .right-content {
     display: flex;
     width: 50%;
+    justify-content: center;
+}
+.right-content-text {
+    font-size: 24px;
+    
 }
