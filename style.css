@@ -112,12 +112,16 @@ body {
 }
 .title-t-medium {
     font-size: 25px;
+    font-weight: bolder;
 }
 .domain-prices {
     display: flex;
 }
 .box-item {
     padding: 7px;
+}
+.box-item-img {
+
 }
 .right-content {
     display: flex;
