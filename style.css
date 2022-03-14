@@ -506,7 +506,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-
 }
 .box-modern-and-efficient {
     background-color: #fafafa;
@@ -533,11 +532,46 @@ body {
     display: block;
     font-weight: bold;
 }
-p {
+.txt-grow-together {
     font-size: 14px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+.container-grow-together {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.title-grow-together {
+    color: rgb(31, 32, 68);
+    font-size: 32px;
+}
+.txt-grow-together {
+    font-size: 18px;
+}
+.box-grow-together {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box-item-grow-together {
+    width: fit-content;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin: 17px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+    padding: 15px;
+    position: relative;
+    color: unset;
+    background-color: white;
+    border-top-right-radius: 70px;
+}
+.title-t-grow-together {
+
 }
